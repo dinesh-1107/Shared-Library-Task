@@ -4,6 +4,6 @@ def call() {
     echo "Building Application..."
     echo "==============================="
 
-    sh "mvn clean package"
+    bat "mvn clean package"
 
 }

@@ -2,6 +2,6 @@ def call(imageName) {
 
     echo "Building Docker Image"
 
-    sh "docker build -t ${imageName} ."
+    bat "docker build -t ${imageName} ."
 
 }

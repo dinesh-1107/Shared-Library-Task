@@ -4,6 +4,6 @@ def call() {
     echo "Running Unit Tests..."
     echo "==============================="
 
-    sh "mvn test"
+    bat "mvn test"
 
 }
